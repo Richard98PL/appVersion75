@@ -1,0 +1,10 @@
+
+$app-background-gradient: unquote("linear-gradient(145deg, #484962 30%, #d06b41 100%)");
+$app-background-image: url('bg.jpg');
+
+@import '../valo/valo.scss';
+
+@mixin apptheme {
+  @include valo;
+
+}

@@ -1,0 +1,8 @@
+@import "apptheme.scss";
+
+
+.apptheme {
+  @include apptheme;
+   background-image: $app-background-gradient;
+}
+
